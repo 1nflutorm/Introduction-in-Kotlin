@@ -1,4 +1,4 @@
-import kotlin.random.Random as KRandom
+ import kotlin.random.Random as KRandom
 import java.util.Random as JRandom
 
 fun useDifferentRandomClasses(): String {

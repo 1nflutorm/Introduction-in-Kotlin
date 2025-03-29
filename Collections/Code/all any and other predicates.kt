@@ -1,4 +1,4 @@
-// Return true if all customers are from a given city
+ // Return true if all customers are from a given city
 fun Shop.checkAllCustomersAreFrom(city: City): Boolean =
         customers.all{it.city == city};
 

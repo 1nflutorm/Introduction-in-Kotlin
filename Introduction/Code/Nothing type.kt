@@ -1,4 +1,4 @@
-import java.lang.IllegalArgumentException
+ import java.lang.IllegalArgumentException
 
 fun failWithWrongAge(age: Int?): Nothing {
     throw IllegalArgumentException("Wrong age: $age")

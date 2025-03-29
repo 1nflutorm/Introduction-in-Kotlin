@@ -1,4 +1,4 @@
-// Build a map from the customer name to the customer
+ // Build a map from the customer name to the customer
 fun Shop.nameToCustomerMap(): Map<String, Customer> =
         customers.associateBy(Customer::name)
 

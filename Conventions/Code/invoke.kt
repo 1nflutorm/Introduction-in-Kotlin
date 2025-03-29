@@ -1,4 +1,4 @@
-class Invokable {
+ class Invokable {
     var numberOfInvocations: Int = 0
         private set
 

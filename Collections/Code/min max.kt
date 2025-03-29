@@ -1,4 +1,4 @@
-// Return a customer who has placed the maximum amount of orders
+ // Return a customer who has placed the maximum amount of orders
 fun Shop.getCustomerWithMaxOrders(): Customer? =
         customers.maxByOrNull { it.orders.size };
 

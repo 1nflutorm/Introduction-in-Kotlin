@@ -1,4 +1,4 @@
-// Find all the different cities the customers are from
+ // Find all the different cities the customers are from
 fun Shop.getCustomerCities(): Set<City> =
         customers.map { it.city }.toSet()
 

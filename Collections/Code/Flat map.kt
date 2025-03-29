@@ -1,4 +1,4 @@
-// Return all products the given customer has ordered
+ // Return all products the given customer has ordered
 fun Customer.getOrderedProducts(): List<Product> =
     orders.flatMap(Order::products)
     

@@ -1,4 +1,4 @@
-// Return customers who have more undelivered orders than delivered
+ // Return customers who have more undelivered orders than delivered
 fun Shop.getCustomersWithMoreUndeliveredOrders(): Set<Customer>
 {
     return customers.filter {

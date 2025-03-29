@@ -1,4 +1,4 @@
-fun sendMessageToClient(
+ fun sendMessageToClient(
         client: Client?, message: String?, mailer: Mailer
 ) {
     val personalInfo: PersonalInfo? = client?.personalInfo;
